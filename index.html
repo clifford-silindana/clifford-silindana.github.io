@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+        <div class = "profile-picture-container">
+            
+            <img id = "profile-picture" src= "./image/profile-picture.jpg" alt="Profile picture">
+
+        </div>
+
+        <div class = "introduction">
+            <h1>Clifford Silindana</h1>
+            <h1>Software Developer</h1>
+            <h3>BSc Computer Science & Business Computing,</h3>
+            <h3>University of Cape Town</h3>
+
+            <div class="social-media-links">
+                <a href="https://www.linkedin.com/in/clifford-silindana-06937b121/" target = "_blank">
+                    <img class = "social-media-link-icon"src="./image/linkedin.png" alt="">
+                </a>
+    
+                <a href="https://github.com/clifford-silindana" target = "_blank">
+                    <img class = "social-media-link-icon"src="./image/github.png" alt="">
+                </a>
+    
+                <a href="https://www.youtube.com/@the_clifford1282" target = "_blank">
+                    <img class = "social-media-link-icon"src="./image/youtube.png" alt="">
+                </a>
+    
+                <a href="https://medium.com/@clifford.silindana" target = "_blank">
+                    <img class = "social-media-link-icon"src="./image/medium.png" alt="">
+                </a>
+    
+                <a href="#" onclick="toggleContact()">
+                    <img class = "social-media-link-icon"src="./image/email.png" alt="">
+                </a>
+                
+            </div>
+
+        </div>
+
+ 
+        <nav class = "navigation">
+            <a class = "navigation-item" href="">Projects</a>
+            <a class = "navigation-item" href="#" onclick="toggleSkills()">Skills</a>
+            <a class = "navigation-item" href="#" onclick="toggleExperience()">Work experience</a>
+        
+        </nav>
+    </header>
+
+    <div class="social-media-links-mobile">
+        <a href="https://www.linkedin.com/in/clifford-silindana-06937b121/" target = "_blank">
+            <img class = "social-media-link-icon"src="./image/linkedin.png" alt="">
+        </a>
+
+        <a href="https://github.com/clifford-silindana" target = "_blank">
+            <img class = "social-media-link-icon"src="./image/github.png" alt="">
+        </a>
+
+        <a href="https://www.youtube.com/@the_clifford1282" target = "_blank">
+            <img class = "social-media-link-icon"src="./image/youtube.png" alt="">
+        </a>
+
+        <a href="https://medium.com/@clifford.silindana" target = "_blank">
+            <img class = "social-media-link-icon"src="./image/medium.png" alt="">
+        </a>
+
+        <a href="#" onclick="toggleContact()">
+            <img class = "social-media-link-icon"src="./image/email.png" alt="">
+        </a>
+        
+    </div>
+
+
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="image/image1.jpg">
+                <div class="content">
+
+                    <div class = "project-content-section">
+                    <div class="topic">LevITate</div>
+                    <div class="des">
+                     A ticketing system on which users can request assistance with any IT-related issues and schedule consultations for cloud services.  
+            
+                        
+                        
+                    </div>
+                    <div class="buttons">
+                        
+                        <button onclick="toggleVisibility(1)">
+                            SEE IMAGES
+                        </button>
+
+                        
+                            <button>
+                             <a href="https://github.com/clifford-silindana/levITate" target="_blank">
+                                GITHUB REPO
+                             </a>
+                            </button>
+                       
+                    </div>
+
+                </div>
+
+        
+                </div>
+
+              
+            </div>
+            <div class="item">
+                <img src="image/image2.jpg">
+                <div class="content">
+
+                    <div class = "project-content-section">
+                    <div class="topic">NumProp Property Management System</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        A real estate management system for residential and commercial properties.
+                    </div>
+                    <div class="buttons">
+                        <button onclick="toggleVisibility(2)">SEE IMAGES</button>
+                        <button>
+                            <a href="">
+                               GITHUB REPO
+                            </a>    
+                        </button>
+                    </div>
+
+                </div>
+
+                
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/image6.jpg">
+                <div class="content">
+
+                    <div class = "project-content-section">
+                    <div class="topic">Troli</div>
+                    <div class="des">
+                        A platform that helps South African consumers compare prices of goods among some
+of the major retailers namely Pick n Pay, Checkers and Woolworths.
+                    </div>
+                    <div class="buttons">
+                        <button onclick="toggleVisibility(3)">
+                              SEE IMAGES
+                        </button>
+                        <button>
+                            <a href="https://github.com/clifford-silindana/Troli" target = "_blank">
+                               GITHUB REPO
+                            </a>    
+                        </button>
+                    </div>
+
+                </div>
+
+                
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/image10.jpg">
+                <div class="content">
+
+                    <div class = "project-content-section">
+                    <div class="topic">Railway Safety Regulator</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        A web-based application that helps
+RSR capture accidents that occur on South African railways.
+                    </div>
+                    <div class="buttons">
+                        <button onclick="toggleVisibility(4)">
+                              SEE IMAGES
+                        </button>
+                        <button>
+                            <a href="https://github.com/clifford-silindana/RSR" target = "_blank">
+                               GITHUB REPO
+                            </a>    
+                        </button>
+                    </div>
+
+                </div>
+
+    
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="image/image10.jpg">
+                <div id = "UCT-content" class="content">
+
+                    <div class = "project-content-section">
+                    <div class="topic">UCT Entrepreneurs Society</div>
+                    <div class="des">
+                        A platform for UCT students who are aspiring entrepreneurs. They would identify a problem, ideate on a solution, form a team, conduct market research and execute all the relevant steps to building a startup.
+                    </div>
+                    <div class="buttons">
+                        <button onclick="toggleVisibility(5)">
+                            SEE IMAGES
+                        </button>
+                        <button>
+                            <a href="https://github.com/clifford-silindana/uctescsocfrontend" target = "_blank">
+                               GITHUB REPO
+                            </a>    
+                        </button>
+                    </div>
+
+                </div>
+
+    
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="image/image10.jpg">
+                <div class="content">
+
+                    <div class = "project-content-section">
+                    <div class="topic">Poppel Online Store</div>
+                    <div class="des">
+                        Poppel is a small business selling confectionery items and soft drinks. The project was to take their ordering processes, which are through a call to the marketing clerk, to online.
+                    </div>
+                    <div class="buttons">
+                        <button onclick="toggleVisibility(6)">
+                                SEE IMAGES
+                        </button>
+                        <button>
+                            <a href="https://github.com/clifford-silindana/PoppelSystems-React-Frontend-" target = "_blank">
+                               GITHUB REPO
+                            </a>    
+                        </button>
+                    </div>
+
+                </div>
+
+    
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="image/image10.jpg">
+                <div class="content">
+
+                    <div class = "project-content-section">
+                    <div class="topic">Co-Mute</div>
+                    <div class="des">
+                        With the rise in petrol prices and traffic on the roads, Co-Mute is a project to help commuters save on money and time spent on the roads. Users can create accounts and join to travel with other users or create their own trips which people can join.
+                    </div>
+                    <div class="buttons">
+                        <button onclick="toggleVisibility(7)">
+              SEE IMAGES
+                        </button>
+                        <button>
+                            <a href="https://github.com/clifford-silindana/co-mute" target = "_blank">
+                               GITHUB REPO
+                            </a>    
+                        </button>
+                    </div>
+
+                </div>
+
+    
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+
+        
+            <div class="thumbnail">
+                <div class="item">
+                    <div class="content">
+                        <h1 class = "project-number">01</h1>
+                        <div class="title">Project name</div>
+                        <div class="description">LevITate</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <h1 class = "project-number">02</h1>
+                        <div class="title">Project name</div>
+                        <div class="description">NumProp</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <h1 class = "project-number">03</h1>
+                        <div class="title">Project name</div>
+                        <div class="description">Troli</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <h1 class = "project-number">04</h1>
+                        <div class="title">Project name</div>
+                        <div class="description">Railway Safety Regulator</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="content">
+                        <h1 class = "project-number">05</h1>
+                        <div class="title">Project name</div>
+                        <div class="description">UCTES</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="content">
+                        <h1 class = "project-number">06</h1>
+                        <div class="title">Project name</div>
+                        <div class="description">Co-Mute</div>
+                    </div>
+                </div>
+            </div>
+        
+        <!-- <div class="thumbnail">
+            <div class="item">
+    
+                <div class="content">
+                    <div class="title">
+                        Name Slider 1
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+       
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+             
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+         
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+
+           
+        </div> -->
+
+        <div class = "project-images-section" id="projectImagesSection-1">
+            <h1 class = "close-projects-link" onclick="fadeOut(1)">Close</h1>
+
+            <div class = "first-row-pictures">
+
+            
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project1.png" alt="">
+
+                </div>
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project2.png" alt="">
+
+                </div>
+
+            </div>
+
+            <div class = "second-row-pictures">
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project3.png" alt="">
+
+                </div>
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project4.png" alt="">
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class = "project-images-section" id="projectImagesSection-2">
+            <h1 class = "close-projects-link" onclick="fadeOut(2)">Close</h1>
+
+            <div class = "first-row-pictures">
+
+            
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project5.png" alt="">
+
+                </div>
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project6.png" alt="">
+
+                </div>
+
+            </div>
+
+            <div class = "second-row-pictures">
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project7.png" alt="">
+
+                </div>
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project8.png" alt="">
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class = "project-images-section" id="projectImagesSection-3">
+            <h1 class = "close-projects-link" onclick="fadeOut(3)">Close</h1>
+
+            <div class = "first-row-pictures">
+
+            
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project9.png" alt="">
+
+                </div>
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project10.png" alt="">
+
+                </div>
+
+            </div>
+
+            <div class = "second-row-pictures">
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project11.png" alt="">
+
+                </div>
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project12.png" alt="">
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class = "project-images-section" id="projectImagesSection-4">
+            <h1 class = "close-projects-link" onclick="fadeOut(4)">Close</h1>
+
+            <div class = "first-row-pictures">
+
+            
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project13.png" alt="">
+
+                </div>
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project14.png" alt="">
+
+                </div>
+
+            </div>
+
+            <div class = "second-row-pictures">
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project15.png" alt="">
+
+                </div>
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project16.png" alt="">
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class = "project-images-section" id="projectImagesSection-5">
+            <h1 class = "close-projects-link" onclick="fadeOut(5)">Close</h1>
+
+            <div class = "first-row-pictures">
+
+            
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project17.png" alt="">
+
+                </div>
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project18.png" alt="">
+
+                </div>
+
+            </div>
+
+            <div class = "second-row-pictures">
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project19.png" alt="">
+
+                </div>
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project20.png" alt="">
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class = "project-images-section" id="projectImagesSection-6">
+            <h1 class = "close-projects-link" onclick="fadeOut(6)">Close</h1>
+
+            <div class = "first-row-pictures">
+
+            
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project21.png" alt="">
+
+                </div>
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project22.png" alt="">
+
+                </div>
+
+            </div>
+
+            <div class = "second-row-pictures">
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project23.png" alt="">
+
+                </div>
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project24.png" alt="">
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class = "project-images-section" id="projectImagesSection-7">
+    
+
+            <a class = "close-projects-link" href="#" onclick="fadeOut(7)">
+                <!-- <img class = "close-image" src="./image/close.png" alt=""> -->
+                 <h1>Close</h1>
+
+            </a>
+
+            <div class = "first-row-pictures">
+
+            
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project25.png" alt="">
+
+                </div>
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project26.png" alt="">
+
+                </div>
+
+            </div>
+
+            <div class = "second-row-pictures">
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project27.png" alt="">
+
+                </div>
+
+                <div class = "picture-container">
+                    <img class = "project-image" src="./image//project-images/project28.png" alt="">
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- work experience section -->
+
+        <div class = "work-experience-section" id="workExperienceSection">
+            <!-- <h1 onclick="fadeOutExperience()">Close</h1> -->
+
+            <a class = "close-link" href="#" onclick="fadeOutExperience()">
+                <!-- <img class = "close-image" src="./image/close.png" alt=""> -->
+                 <h1 onclick="fadeOutSkills()">Close</h1>
+
+            </a>
+
+            <img class = "work-experience-image" src="./image/timeline-image.png" alt="">
+
+       
+
+     
+        </div>
+
+
+        <!-- work experience section end-->
+
+
+        <!-- skills section -->
+
+        <div class = "skills-section" id="skillsSection">
+            <a class = "close-link" href="#" onclick="fadeOutSkills()">
+                <!-- <img class = "close-image" src="./image/close.png" alt=""> -->
+                 <h1 onclick="fadeOutSkills()">Close</h1>
+
+            </a>
+        
+
+            <img class = "skills-section-image" src="./image/skills.png" alt="">
+
+       
+
+     
+        </div>
+
+                <!-- contact section -->
+
+                <div class = "contact-section" id="contactSection">
+                    
+                        <!-- <img class = "close-image" src="./image/close.png" alt=""> -->
+                         <h1 class = "close-button" onclick="fadeOutContact()">Close</h1>
+        
+                   
+                
+                    <div class = "contact-container">
+                        <div class = "contact-section-image-container">
+                            <h1 class = "form-label">let's connect</h1>
+                        <img class = "contact-section-image" src="./image/contact-image.jpg" alt="">
+                        </div>
+
+                       
+
+                        <div class = "contact-section-form-container">
+                            <form id="contact-form" class="contact-form" action="https://formspree.io/f/mblrgnjb" method="POST">
+                                <input class="form-input" type="text" name="name" placeholder="name and surname" required>
+                                <input class="form-input" type="text" name="email" placeholder="email address" required>
+                                <textarea class="form-input" name="message" placeholder="message" required></textarea>
+                                <button class="form-submit" type="submit">
+                                    <img class = "form-submit-icon"src="./image/right-arrow.png" alt="Submit">
+                                </button>
+                                    
+                                
+                            </form>
+
+                    
+                            
+                        </div>
+
+                    </div>
+                    
+        
+               
+        
+             
+                </div>
+
+        <!-- <div class="skills-section" id="skillsSection">
+            <h1 onclick="fadeOutSkills()">Close</h1>
+            <div class="image-container">
+                <img class="skills-section-image" src="./image/skills.png" alt="">
+            </div>
+        </div> -->
+
+        <!-- skills section end-->
+
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
